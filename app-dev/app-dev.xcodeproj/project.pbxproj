@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CBBC163248E8DCC00558406 /* CornderdImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC162248E8DCC00558406 /* CornderdImageView.swift */; };
+		8CBBC167248E910200558406 /* CornerdUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBC166248E910200558406 /* CornerdUIButton.swift */; };
 		8CBFF01E248D5FB700D64C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFF01D248D5FB700D64C58 /* AppDelegate.swift */; };
 		8CBFF020248D5FB700D64C58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFF01F248D5FB700D64C58 /* SceneDelegate.swift */; };
 		8CBFF022248D5FB700D64C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFF021248D5FB700D64C58 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CBBC162248E8DCC00558406 /* CornderdImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornderdImageView.swift; sourceTree = "<group>"; };
+		8CBBC166248E910200558406 /* CornerdUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerdUIButton.swift; sourceTree = "<group>"; };
 		8CBFF01A248D5FB700D64C58 /* app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBFF01D248D5FB700D64C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBFF01F248D5FB700D64C58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CBBC161248E8D9700558406 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CBBC162248E8DCC00558406 /* CornderdImageView.swift */,
+				8CBBC166248E910200558406 /* CornerdUIButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8CBFF011248D5FB700D64C58 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		8CBFF01C248D5FB700D64C58 /* app-dev */ = {
 			isa = PBXGroup;
 			children = (
+				8CBBC161248E8D9700558406 /* View */,
 				8CBFF01D248D5FB700D64C58 /* AppDelegate.swift */,
 				8CBFF01F248D5FB700D64C58 /* SceneDelegate.swift */,
 				8CBFF021248D5FB700D64C58 /* ViewController.swift */,
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBBC167248E910200558406 /* CornerdUIButton.swift in Sources */,
 				8CBFF022248D5FB700D64C58 /* ViewController.swift in Sources */,
+				8CBBC163248E8DCC00558406 /* CornderdImageView.swift in Sources */,
 				8CBFF01E248D5FB700D64C58 /* AppDelegate.swift in Sources */,
 				8CBFF020248D5FB700D64C58 /* SceneDelegate.swift in Sources */,
 			);
